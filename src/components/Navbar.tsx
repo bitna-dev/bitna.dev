@@ -7,7 +7,9 @@ const Navbar = () => {
 
 	return (
 		<nav className="fixed top-0 w-full z-50 flex justify-between items-center px-8 py-6 backdrop-blur-md bg-white/70 dark:bg-slate-950/70 border-b border-slate-100 dark:border-slate-900">
-			<div className="font-extrabold text-2xl tracking-tighter text-blue-600">BITNA</div>
+			<div className="font-extrabold text-2xl tracking-tighter text-blue-600">
+				<a href="#hero">BITNA</a>
+			</div>
 
 			<div className="flex items-center gap-6">
 				<button

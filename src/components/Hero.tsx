@@ -5,7 +5,10 @@ import FloatingAvatar from "./FloatingAvatar";
 
 const Hero = () => {
 	return (
-		<header className="relative flex flex-col md:flex-row items-center justify-center px-10 overflow-hidden transition-colors duration-300 max-w-7xl mx-auto">
+		<header
+			className="relative flex flex-col md:flex-row items-center justify-center px-10 overflow-hidden transition-colors duration-300 max-w-7xl mx-auto"
+			id="hero"
+		>
 			<div className=" mx-auto pt-32 pb-20 flex flex-col md:flex-row items-center justify-center">
 				{/* Left */}
 				<motion.div
