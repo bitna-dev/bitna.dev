@@ -22,8 +22,8 @@ const projects = [
 		tech: ["React.js", "TypeScript", "Node.js", "Express", "JWT"],
 		color: "orange",
 		year: "2025",
-		github: "https://github.com/yourusername/clario",
-		demo: "https://clario-demo.com",
+		github: "https://github.com/WMDD-Team1/clario",
+		demo: "https://clario-production.up.railway.app/",
 	},
 	{
 		title: "Skinu",
